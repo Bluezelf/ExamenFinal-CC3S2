@@ -1,0 +1,14 @@
+<h2>Search in TMDB</h2>
+<%= form_tag movies_path, method: :post , id: :tmdb_form %>
+<p>
+  <%= label_tag :Movie_Name %>
+  <%= text_field_tag :Movie_Name, params[:Movie_Name] %>
+  <%= label_tag :Release_Date %>
+  <%= text_field_tag :Release_Date, params[:Release_Date] %>
+</p>
+<p>
+  <%= link_to 'Back to movie list', movies_path, :class => 'btn btn-primary' %>
+</p>
+<p>
+  <%= submit_tag "Search", :class => 'btn btn-primary' %>
+</p>
