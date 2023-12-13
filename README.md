@@ -51,7 +51,7 @@ class AdminController < ApplicationController
 end
 ```
 De esta manera si es que el usuario no es admin, lo redirigirá a la pagina principal y le mostrará un mensaje.
-gvhjvgh.
+4. Hola Mundo
 5. ¿Cuándo deberías utilizar la metaprogramación basada en eval en lugar de la metaprogramación basada en bloques?.
 La principal diferencia es que la metaprogramación basada en eval se usa cuando se quiere ejecutar una cadena de texto
 como si fuera código de ruby, en cambio la metaprogramación basada en bloques se utiliza cuando se quiere ejecutar 
